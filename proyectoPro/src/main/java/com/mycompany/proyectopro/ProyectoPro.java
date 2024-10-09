@@ -25,8 +25,17 @@ public class ProyectoPro {
     private static void pointTwo() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+    
+    private static void pointTree() {
+        final byte table = 8;
+        
+        for (int i = 0; i < 10; i++) {
+            System.out.println( table + " X " + i + " = " + ( table * i ) );
+        }
+    }    
 
     private static void pointFour() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
+
 }
