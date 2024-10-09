@@ -11,7 +11,10 @@ public class ProyectoPro {
     public static void main(String[] args) {
         pointFrist();
         pointTwo();
+
         pointTree();
+
+        pointFour();
 
     }
 
@@ -23,7 +26,7 @@ public class ProyectoPro {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    private static void pointTree() {
+    private static void pointFour() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
