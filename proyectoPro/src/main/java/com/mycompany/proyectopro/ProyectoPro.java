@@ -31,8 +31,9 @@ public class ProyectoPro {
         final byte table = 8;
         
         for (int i = 0; i < 10; i++) {
+            if (i % 2==0){
             System.out.println( table + " X " + i + " = " + ( table * i ) );
-        }
+        }}
     }    
 
     private static void pointFour() {
