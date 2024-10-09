@@ -11,6 +11,9 @@ public class ProyectoPro {
     public static void main(String[] args) {
         pointFrist();
         pointTwo();
+
+        pointTree();
+
         pointFour();
 
     }
