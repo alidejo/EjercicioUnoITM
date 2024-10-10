@@ -14,6 +14,7 @@ public class ProyectoPro {
 
         pointFour();
         pointFive();
+    
         pointSix();
 
     }
