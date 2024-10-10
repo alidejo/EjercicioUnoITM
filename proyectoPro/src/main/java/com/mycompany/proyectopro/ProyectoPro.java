@@ -14,7 +14,7 @@ public class ProyectoPro {
 
         pointFour();
         pointFive();
-        
+
         pointSeven();
 
     }
@@ -31,10 +31,10 @@ public class ProyectoPro {
         final byte table = 8;
 
         for (int i = 0; i < 10; i++) {
-            if (i % 2==0) {
+            if (i % 2 == 0) {
                 System.out.println(table + " X " + i + " = " + (table * i));
             } else {
-                System.out.println(table + " X " + i + " = " + (table * i));                
+                System.out.println(table + " X " + i + " = " + (table * i));
             }
         }
     }
@@ -51,7 +51,12 @@ public class ProyectoPro {
     }
 
     private static void pointSeven() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        int count = 0;
+        while (count < 5) {
+            for (int i = 0; i < 2; i++) {
+                System.out.println("count es " + count + " y i es: " + i);
+            }
+            count++;
+        }
     }
-
 }
